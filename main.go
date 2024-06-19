@@ -27,7 +27,7 @@ func main() {
 	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
 
 	if err != nil {
-		log.Fatalln("Cannot connect to MySQL:", err)
+		log.Fatalln("Cannot connect to MySQL1:", err)
 	}
 
 	log.Println("Connected to MySQL1:", db)
