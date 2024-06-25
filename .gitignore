@@ -1,1 +1,5 @@
-tmp
+coverage*
+.idea/
+.env
+*tmp*
+main
